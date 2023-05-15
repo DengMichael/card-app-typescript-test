@@ -3,10 +3,17 @@ export interface Entry {
   title: string;
   description: string;
   created_at: Date | string;
+  scheduled_date: Date | string;
 }
 export type EntryContextType = {
   entries: Entry[];
   saveEntry: (entry: Entry) => void;
   updateEntry: (id: string, entryData: Entry) => void;
   deleteEntry: (id: string) => void;
-};
+}
+export interface DarkMode {
+  dark_mode: boolean;
+}
+export type DarkModeContextType = {
+  dark_mode: boolean;
+}

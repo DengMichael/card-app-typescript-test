@@ -1,0 +1,24 @@
+Then make changes to:
+
+    Add a dark mode. Create a settings dialog to set it - and change the styling to render a dark mode. Consider how the current setting is passed to the components (and describe it in your covering email)
+    Add a scheduled date to the cards. This involves adding a column in the database, changing the backend service and changing the frontend card entry and display components
+    Add tests to the backend. There are some clues here and here.
+
+https://www.techradar.com/news/what-makes-a-good-dark-mode-and-which-apps-get-it-wrong
+
+Blacks -> Whites
+Whites -> Blacks
+
+Fix - Toggle
+DarkMode Context
+Button design
+How to add buttons
+Edit tags
+
+
+Scheduled date
+??? - Ask but maybe just do it
+Add date
+
+
+Tests
